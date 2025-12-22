@@ -1,3 +1,5 @@
+//ACCEPTED
+
 #include <stdio.h>
 #include <string.h>
 
@@ -19,8 +21,9 @@ int main() {
             
     }
 
-    if(nb7+nb4==strlen(ch) && nb7 !=0 && nb4!=0)
+    if((nb7+nb4)==7 || (nb7+nb4))
         printf("YES");
     else printf("NO");
     return 0;
 }
+
